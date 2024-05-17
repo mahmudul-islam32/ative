@@ -1,5 +1,5 @@
 
-import { NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 import { LiaFileInvoiceSolid } from "react-icons/lia";
 import { TbReportSearch } from "react-icons/tb";
@@ -13,6 +13,7 @@ import { TbTableShortcut } from "react-icons/tb";
 import { GrValidate } from "react-icons/gr";
 import Nav from "./Navbar/Nav";
 import logo from '../../public/logo.png'
+import { AiFillNotification } from "react-icons/ai";
 const Layout = () => {
     return (
         <div className="relative bg-[#1E1E1E] h-screen overflow-x-hidden">
@@ -29,16 +30,16 @@ const Layout = () => {
                     </div>
                     <ul className="menu px-6 text-white text-lg gap-4">
                         <li className="">
-                            <NavLink to="/dashboard/home">
+                            <Link to="/dashboard/home">
                             <IoHome />Home
-                            </NavLink>
-                        </li>
-                        {/* <li>
-                            <NavLink to="/dashboard/invoice">
-                                <LiaFileInvoiceSolid /> Invoice
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
+                            <Link to="/dashboard/channel">
+                                <AiFillNotification /> Channel
+                            </Link>
+                        </li>
+                         <li>
                             <NavLink to="/dashboard/reports">
                                 <TbReportSearch />  Reports
                             </NavLink>
@@ -49,7 +50,7 @@ const Layout = () => {
                                 <FaMapMarked />Branches
                             </NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/dashboard/tests">
                                 <FaFlaskVial />  Tests
                             </NavLink>

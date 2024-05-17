@@ -1,6 +1,7 @@
-import file from '../../../public/Group 11.png'
-import file2 from '../../../public/Rectangle 93.png'
-import file3 from '../../../public/Frame 2.png'
+
+import file from '../../../../public/Group 11.png'
+import file2 from '../../../../public/Rectangle 93.png'
+import file3 from '../../../../public/Frame 2.png'
 import './home.css'
 import { IoMdAdd } from "react-icons/io";
 const DashHome = () => {
@@ -136,7 +137,7 @@ const DashHome = () => {
                 </div>
 
                 <div className='mx-7 mb-5'>
-                    <input type="text" name="" id="" className=' w-full  bg-[#2C2C2C] h-[38px] input input-bordered' />
+                    <input type="text" placeholder='Suche nach Personen, Dokumenten, ...' name="" id="" className=' w-full  bg-[#2C2C2C] h-[38px] text-[#A3A3A3] input input-bordered' />
                 </div>
             </div>
         </>
