@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     console.log(email, password);
 
-    // Assuming the login process is successful
+   
     navigate("/dashboard");
   };
 
