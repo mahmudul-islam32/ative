@@ -15,7 +15,7 @@ import Nav from "./Navbar/Nav";
 import logo from '../../public/logo.png'
 const Layout = () => {
     return (
-        <div className="relative h-screen overflow-hidden">
+        <div className="relative bg-[#1E1E1E] h-screen overflow-x-hidden">
             <div className="fixed left-[113px] w-[100%]">
                 <Nav></Nav>
             </div>

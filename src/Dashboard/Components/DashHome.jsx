@@ -61,7 +61,7 @@ const DashHome = () => {
                 </div>
                 <div className="flex flex-row justify-evenly mx-7 gap-3 ">
                     <div className="w-3/4">
-                        <div className="card w-full h-[12rem] mb-10 bg-[#2C2C2C] shadow-xl">
+                        <div className="card w-full h-[14rem] mb-10 bg-[#2C2C2C] shadow-xl">
                             <div className="card-body grid grid-cols-7 mx-10 justify-around">
 
 
@@ -102,24 +102,41 @@ const DashHome = () => {
 
                             </div>
                         </div>
-                        <div className="card w-full h-40 bg-[#2C2C2C] shadow-xl">
-                            {/* <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="card w-full h-[313px] bg-[#2C2C2C] shadow-xl ">
+                            <div className="card-body">
                                 <div className="indicator">
                                     <span className="indicator-item badge badge-secondary"></span>
-                                    <div className="grid w-32 h-32 bg-base-300 place-items-center">content</div>
+                                    <div className="grid w-[856px] h-[89px] bg-[#5BFFA726] rounded-xl place-items-center">content</div>
                                 </div>
-                            </div> */}
+                            </div>
+                            <div className="card-body">
+                               
+                                <div className="indicator">
+                                  
+                                    <div className="grid w-[856px]   bg-base-300 place-items-center">content</div>
+                                </div>
+                            </div>
+                            <div className="card-body">
+                               
+                                <div className="indicator">
+                                  
+                                    <div className="grid w-[856px]  bg-base-300 place-items-center">content</div>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
-                    <div className="w-1/4">
+                    <div className="w-1/4 h-[578px]">
                         <div className="card w-full h-full bg-[#2C2C2C] shadow-xl">
                             <div className="card-body">
                                 <img src={file3} alt="" />
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className='mx-7 mb-5'>
+                    <input type="text" name="" id="" className=' w-full  bg-[#2C2C2C] h-[38px] input input-bordered' />
                 </div>
             </div>
         </>
