@@ -17,7 +17,7 @@ import { AiFillNotification } from "react-icons/ai";
 const Layout = () => {
     return (
         <div className="relative bg-[#1E1E1E] h-screen overflow-x-hidden">
-            <div className="fixed left-[113px] w-[100%]">
+            <div className="fixed  left-[113px] w-[100%]">
                 <Nav></Nav>
             </div>
             <div className="flex bg-[#1E1E1E] h-screen bg-fixed">
