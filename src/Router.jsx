@@ -3,7 +3,9 @@ import Main from "./Main/Main";
 import Home from "./Components/Home";
 import Login from "./Authentication/Login";
 import Layout from "./Dashboard/Layout";
-import DashHome from "./Dashboard/Components/DashHome";
+import DashHome from "./Dashboard/Components/Home/DashHome";
+import Channel from "./Dashboard/Components/Channel/Channel";
+
 
 export const router = createBrowserRouter([
   {
@@ -32,10 +34,10 @@ export const router = createBrowserRouter([
         path: "home",
         element: <DashHome></DashHome>
       },
-      // {
-      //   path: "validate",
-      //   element: <Validate></Validate>
-      // },
+      {
+        path: "channel",
+        element: <Channel></Channel>
+      },
 
       // {
       //   path: "table",
