@@ -1,7 +1,8 @@
 import React from 'react';
 
 import { IoMdAdd } from 'react-icons/io';
-import { Link } from 'react-router-dom';
+import img1 from '../../../../public/paper-plane-top 1.png'
+import img2 from '../../../../public/clip 1.png'
 
 const Channel = () => {
     return (
@@ -41,7 +42,12 @@ const Channel = () => {
                     </div>
                
                     <div className="sticky bottom-4 bg-[#2C2C2C] p-2">
-                        <input type="text" className='w-full p-2 border bg-[#1E1E1EF2]  rounded' placeholder='Verfasse Nachrichten' />
+                        <input type="text" className='w-full px-9 py-2 border bg-[#1E1E1EF2]  rounded' placeholder='Verfasse Nachrichten' />
+                      <div className='flex flex-row relative justify-between -top-9 px-2'>
+                      <img className='' src={img2} alt="" />
+                      <img className='' src={img1} alt="" />
+                       
+                      </div>
                     </div>
                 </div>
 
