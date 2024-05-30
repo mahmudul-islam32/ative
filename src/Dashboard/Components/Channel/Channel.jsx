@@ -21,7 +21,7 @@ const Channel = () => {
 
         <button></button>
       </div>
-      <div className=" min-h-screen flex flex-row justify-around bg-[#2C2C2C] rounded-xl">
+      <div className=" min-h-screen -z-10 flex flex-row justify-around bg-[#2C2C2C] rounded-xl">
         {/* <div className="hero-content text-left"> */}
         <div className="overflow-x-auto h-96 w-1/3 p-9">
           <table className="table ">
@@ -49,7 +49,8 @@ const Channel = () => {
           <div>
             <h2 className=" text-white">#allhands</h2>
             <div className="flex items-center justify-center min-h-screen">
-              <div className="card w-[643px] h-[587px] items-center bg-[#1E1E1E] shadow-xl">
+
+              <div className="card w-[643px] h-[620px] items-center bg-[#1E1E1E] shadow-xl">
                 <div className="flex flex-row justify-between gap-80 relative top-4 text-[#FFF]">
                   <h2 className="ml-auto bg-[#2C2C2C] rounded-2xl px-3 py-2">#allhands</h2>
                   <h2 className="ml-auto bg-[#2C2C2C] rounded-2xl px-3 py-2">29.03.2024, 09:41</h2>
@@ -69,7 +70,7 @@ const Channel = () => {
                     startet die Kampagne heute um 17 Uhr und...
                   </p>
                   <div className="card-actions">
-                    {/* <button className="btn btn-primary">Mehr anzeigen</button> */}
+              
                     <a className="text-[#5BFFA7] underline" href="">
                       Mehr anzeigen
                     </a>

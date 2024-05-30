@@ -40,8 +40,8 @@ const Layout = () => {
                             </Link>
                         </li>
                          <li>
-                            <NavLink to="/dashboard/reports">
-                                <TbReportSearch />  Reports
+                            <NavLink to="/dashboard/space">
+                                <TbReportSearch />  Space
                             </NavLink>
                         </li>
 

@@ -5,6 +5,7 @@ import Login from "./Authentication/Login";
 import Layout from "./Dashboard/Layout";
 import DashHome from "./Dashboard/Components/Home/DashHome";
 import Channel from "./Dashboard/Components/Channel/Channel";
+import Space from "./Dashboard/Components/Space/Space";
 
 
 export const router = createBrowserRouter([
@@ -39,11 +40,11 @@ export const router = createBrowserRouter([
         element: <Channel></Channel>
       },
 
-      // {
-      //   path: "table",
-      //   element: <AdvancedTable></AdvancedTable>
+      {
+        path: "space",
+        element: <Space></Space>
 
-      // },
+      },
 
       // {
       //   path: "update/:id",
