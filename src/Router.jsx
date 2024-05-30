@@ -5,6 +5,8 @@ import Login from "./Authentication/Login";
 import Layout from "./Dashboard/Layout";
 import DashHome from "./Dashboard/Components/Home/DashHome";
 import Channel from "./Dashboard/Components/Channel/Channel";
+import Space from "./Dashboard/Components/Space/Space";
+import Health from "./Dashboard/Components/Health/Health";
 
 
 export const router = createBrowserRouter([
@@ -39,18 +41,18 @@ export const router = createBrowserRouter([
         element: <Channel></Channel>
       },
 
-      // {
-      //   path: "table",
-      //   element: <AdvancedTable></AdvancedTable>
+      {
+        path: "space",
+        element: <Space></Space>
 
-      // },
+      },
 
-      // {
-      //   path: "update/:id",
-      //   element: <Update></Update>,
-      //   loader: ({ params }) => fetch(`https://internship-task-merquireit-server.vercel.app/updateItem/${params.id}`)
+      {
+        path: "health",
+        element: <Health></Health>
+        
 
-      // },
+      },
       // {
       //   path: "profile",
       //   element: <UserProfile></UserProfile>
