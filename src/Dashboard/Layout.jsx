@@ -46,66 +46,12 @@ const Layout = () => {
                         </li>
 
                         <li>
-                            <NavLink to="/dashboard/branches">
-                                <FaMapMarked />Branches
+                            <NavLink to="/dashboard/health">
+                                <FaMapMarked />Health
                             </NavLink>
                         </li>
-                        {/* <li>
-                            <NavLink to="/dashboard/tests">
-                                <FaFlaskVial />  Tests
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/dashboard/cultures">
-                                <IoFlask /> Cultures
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/dashboard/cultureOptions">
-                                <IoFlask />  CultureOptions
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/dashboard/antibiotics">
-                                <FaTablets /> Antibiotics
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/dashboard/doctor">
-                                <FaUserDoctor />   Doctor
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/dashboard/create">
-                                <IoCreateSharp />    Create Form
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/dashboard/validate">
-                                <GrValidate />  Validation
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/dashboard/table">
-                                <TbTableShortcut />   Table
-                            </NavLink>
-                        </li>
-                        <details className=" menu ">
-                            <summary className=" ">PriceList</summary>
-                            <ul className="">
-                                <li>
-                                    <NavLink to="/dashboard/test">
-                                        Test
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink to="/dashboard/culture">
-                                        Culture
-                                    </NavLink>
-                                </li>
-
-                            </ul>
-                        </details> */}
+                       
+                      
 
                     </ul>
 

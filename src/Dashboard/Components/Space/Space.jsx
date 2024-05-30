@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdAdd } from "react-icons/io";
 import img1 from "../../../../public/paper-plane-top 1.png";
 import img2 from "../../../../public/clip 1.png";
-import img3 from "../../../../public/Rectangle 177.png";
+
 const Space = () => {
   return (
     <div className="mx-7 -z-10">
@@ -20,13 +20,8 @@ const Space = () => {
         <button></button>
       </div>
       <div className=" min-h-screen flex flex-row justify-around bg-[#2C2C2C] rounded-xl">
-       
-      
-      
         <div className="w-full flex flex-col justify-between ">
-          <div>
-          
-          </div>
+          <div></div>
 
           <div className="sticky bottom-4 bg-[#2C2C2C] p-2">
             <input
