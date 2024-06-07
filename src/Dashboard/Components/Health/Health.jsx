@@ -3,7 +3,7 @@ import { IoMdAdd } from "react-icons/io";
 import img1 from "../../../../public/paper-plane-top 1.png";
 import img2 from "../../../../public/clip 1.png";
 import img3 from "../../../../public/82_.png";
-import img4 from "../../../../public/graph.jpg";
+
 
 const Health = () => {
   return (
@@ -191,7 +191,7 @@ const Health = () => {
             <div className="card w-[608px] h-[200px] bg-[#1E1E1E] text-primary-content flex items-center justify-center">
               <div className="card-body">
                 <svg
-                  className="ml-5" // Tailwind class for margin-left
+                  className="ml-5"
                   width="538"
                   height="190"
                   viewBox="0 0 538 190"
@@ -208,70 +208,336 @@ const Health = () => {
               </div>
             </div>
           </div>
+          {/*  */}
 
-          <div className="overflow-x-auto">
-            <table className="table ">
-              <tbody className="flex flex-col">
-                <div>
-                  <td>
-                    <div className="flex items-center gap-3 text-white">
-                      <div className="avatar">
-                        <div className="mask mask-circle w-9 h-9">
-                          <img
-                            src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
-                            alt="Avatar Tailwind CSS Component"
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="font-bold">Hart Hagerty</div>
-                      </div>
+          {/*  */}
+          <div className="overflow-x-auto mt-9">
+
+          <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
                     </div>
-                  </td>
-                  <td>
-                    <span className="badge badge-ghost badge-sm">
-                      Desktop Support Technician
-                    </span>
-                  </td>
-                  <th className="flex justify-end items-end">
-                    <button className="btn btn-ghost btn-xs text-white">
-                      details
-                    </button>
-                  </th>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
                 </div>
 
-                {/* row 2 */}
-
-                <div>
-                  <td>
-                    <div className="flex items-center gap-3">
-                      <div className="avatar">
-                        <div className="mask mask-circle w-9 h-9">
-                          <img
-                            src="https://img.daisyui.com/tailwind-css-component-profile-3@56w.png"
-                            alt="Avatar Tailwind CSS Component"
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <div className="font-bold text-white">Brice Swyre</div>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <span className="badge badge-ghost badge-sm">
-                      Tax Accountant
-                    </span>
-                  </td>
-
-                  <th className="flex justify-end items-end">
-                    <button className="btn btn-ghost btn-xs text-white">
-                      details
-                    </button>
-                  </th>
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
                 </div>
-              </tbody>
-            </table>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+
+            {/* row 2 */}
+
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
+            <div className="flex justify-between mx-4 p-3">
+              <div className="flex flex-row justify-start gap-10">
+                <div className="flex items-center gap-3 text-white">
+                  <div className="">
+                    <div className="mask mask-circle w-9 h-9">
+                      <img
+                        src="https://img.daisyui.com/tailwind-css-component-profile-2@56w.png"
+                        alt="Avatar Tailwind CSS Component"
+                      />
+                    </div>
+                  </div>
+                  <div className="font-bold">Hart Hagerty</div>
+                </div>
+
+                <div className="badge border-none text-white bg-[#1E1E1E] w-12 h-6 p-4">
+                  90%
+                </div>
+              </div>
+
+              <div className="flex justify-end items-end">
+                <button className=" text-white">details</button>
+              </div>
+            </div>
           </div>
 
           <div className="sticky bottom-4 bg-[#2C2C2C] p-2">
