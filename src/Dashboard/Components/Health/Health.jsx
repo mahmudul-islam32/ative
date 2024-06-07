@@ -2,6 +2,8 @@ import React from "react";
 import { IoMdAdd } from "react-icons/io";
 import img1 from "../../../../public/paper-plane-top 1.png";
 import img2 from "../../../../public/clip 1.png";
+import img3 from "../../../../public/82_.png";
+import img4 from "../../../../public/graph.jpg";
 
 const Health = () => {
   return (
@@ -24,17 +26,14 @@ const Health = () => {
           <div className="flex flex-row mx-10 mt-10 justify-between gap-5">
             <div className="card w-[211px] h-[211px] bg-[#1E1E1E] text-primary-content">
               <div className="card-body">
-                {/* <h2 className="card-title">Card title!</h2> */}
-                {/* <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn">Buy Now</button>
-                </div> */}
+                <img src={img3} className="m-auto" alt="" />
               </div>
             </div>
 
-            <div className="card w-[608px] h-[211px] bg-[#1E1E1E] text-primary-content">
-              <div className="card-body">
+            <div className="card w-[608px] h-[200px] bg-[#1E1E1E] text-primary-content">
+              <div className="card-body ">
                 <svg
+                  style={{ marginLeft: "20px" }}
                   width="508"
                   height="167"
                   viewBox="0 0 508 167"
@@ -189,13 +188,23 @@ const Health = () => {
               </div>
             </div>
 
-            <div className="card w-[400px] h-[211px] bg-[#1E1E1E] text-primary-content">
+            <div className="card w-[608px] h-[200px] bg-[#1E1E1E] text-primary-content flex items-center justify-center">
               <div className="card-body">
-                {/* <h2 className="card-title">Card title!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn">Buy Now</button>
-                </div> */}
+                <svg
+                  className="ml-5" // Tailwind class for margin-left
+                  width="538"
+                  height="190"
+                  viewBox="0 0 538 190"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2 208L43.5 96L75.5 154L125 39.5L150.5 90L178.5 39.5L206 108L230.5 59L261 122L291.5 59H351.5L376.5 108L408.5 59L454 131.5L536 1.5"
+                    stroke="white"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                  />
+                </svg>
               </div>
             </div>
           </div>
@@ -203,8 +212,6 @@ const Health = () => {
           <div className="overflow-x-auto">
             <table className="table ">
               <tbody className="flex flex-col">
-                {/* row 1 */}
-
                 <div>
                   <td>
                     <div className="flex items-center gap-3 text-white">
