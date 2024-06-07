@@ -1,16 +1,12 @@
 
 import { Link, NavLink, Outlet } from "react-router-dom";
 
-import { LiaFileInvoiceSolid } from "react-icons/lia";
-import { TbReportSearch } from "react-icons/tb";
+
 import { FaMapMarked } from "react-icons/fa";
-import { FaFlaskVial } from "react-icons/fa6";
-import { IoFlask, IoHome } from "react-icons/io5";
-import { FaTablets } from "react-icons/fa";
-import { FaUserDoctor } from "react-icons/fa6";
-import { IoCreateSharp } from "react-icons/io5";
-import { TbTableShortcut } from "react-icons/tb";
-import { GrValidate } from "react-icons/gr";
+
+import {  IoHome } from "react-icons/io5";
+import { RiApps2Fill } from "react-icons/ri";
+import { FaHeart } from "react-icons/fa";
 import Nav from "./Navbar/Nav";
 import logo from '../../public/logo.png'
 import { AiFillNotification } from "react-icons/ai";
@@ -35,21 +31,22 @@ const Layout = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/dashboard/channel">
-                                <AiFillNotification /> Channel
-                            </Link>
-                        </li>
-                         <li>
                             <NavLink to="/dashboard/space">
-                                <TbReportSearch />  Space
+                                <RiApps2Fill/>  Space
                             </NavLink>
                         </li>
 
                         <li>
                             <NavLink to="/dashboard/health">
-                                <FaMapMarked />Health
+                                <FaHeart/>Health
                             </NavLink>
                         </li>
+                        <li>
+                            <Link to="/dashboard/channel">
+                                <AiFillNotification /> Channel
+                            </Link>
+                        </li>
+                        
                        
                       
 
